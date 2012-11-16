@@ -49,8 +49,8 @@ finalResult = bind push(4,stack0), (result0)->
                     value3:result3.value
                     stack:result3.stack
                 return m
-
 m = finalResult
+
 console.log "value2 is #{m.value2}"
 console.log "value3 is #{m.value3}"
 console.log m.stack
